@@ -120,7 +120,7 @@ prob_biggest = prob_array[row_number, class_array]*100
 prob_classified = np.column_stack((row_number, class_array, prob_biggest))
 
 (classified, count) = np.unique(class_array, return_counts=True)
-
+###yusuke
 ####################################################
 # merge Probabilities and Labels by Class Numbers
 ####################################################
